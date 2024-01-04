@@ -1,4 +1,4 @@
-package org.example.java_files;
+package org.example.wcs.java.ts_to_java;
 
 import java.util.Date;
 import java.util.List;

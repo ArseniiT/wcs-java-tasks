@@ -1,4 +1,4 @@
-package org.example.java_files;
+package org.example.wcs.java.ts_to_java;
 
 public class Photo {
     private String url;
