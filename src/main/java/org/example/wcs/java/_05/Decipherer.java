@@ -14,7 +14,7 @@ public class Decipherer {
 
     private static String decryptMessage(String msg) {
         int keyNumber = msg.length() / 2;
-        String subMsg = msg.substring(6, 6 + keyNumber - 1);
+        String subMsg = msg.substring(5, 6 + keyNumber - 1);
         String replace = subMsg.replaceAll("@#\\?"," ");
 
         return new StringBuilder(replace).reverse().toString();
